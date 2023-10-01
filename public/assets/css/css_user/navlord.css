@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  font-family: "Poppins" , sans-serif;
+}
+
+
+nav .cart{
+  text-decoration: none;
+}
+
+nav .hotline{
+  text-decoration: none;
+}
+
+nav .account{
+  text-decoration: none;
+}
+
+nav .ai{
+  text-decoration: none;
+}
+
+nav .em{
+  text-decoration: none;
+}
+
+nav .time{
+  text-decoration: none;
+}
+
+nav .mo{
+  text-decoration: none;
+}
+
+nav .name_web{
+  text-decoration: none;
+}
+body{
+  min-height: 100vh;
+  width: 100%;
+  background: #EEECEB;
+}
+nav{
+  position: fixed;
+  background-color: #005745;
+  width: 100%;
+  padding: 0.7rem 0;
+  /* position: fixed; */
+  top: 0;
+  z-index: 10;
+
+}
+
+.navbard.small {
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  height: 52px;
+  padding: 0.2rem 0;
+  transition: all 0.3s ease;
+}
+
+nav .h2n{
+  color: #fff;
+}
+
+nav .containerd{
+  width: 89%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .search-bard{
+  background-color: hsl(252, 30%, 95%);
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  transition: all 0.1s ease;
+}
+
+nav .search-bard.small{
+  padding: 0.4rem 1rem;
+  transition: all 0.1s ease;
+}
+
+nav .search-bard input[type="search"]{
+  border: none;
+  background: transparent;
+  width: 30vw;
+  margin-left: 1rem;
+  font-size: 0.9rem;
+  color: hsl(252, 30%, 17%);
+}
+
+nav .button{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+nav .btn{
+  display: inline-block;
+  padding: 0.6rem 2rem;
+  font-weight: 500;
+  border-radius: 2rem;
+  cursor: pointer;
+  color: white;
+  background-color: hsl(252, 75%, 60%);
+  transition: all 300ms ease;
+}
+
+nav .contentd{
+  display: flex;
+}
+nav .contentd a{
+  padding: 10px;
+  color: #fff;
+}
+nav .dropdown-account{
+  margin: auto;
+}
+nav .dropdown-hotline{
+  margin: auto;
+}
+nav .acc-btn a, .hotl-btn a{
+  display: block;
+  color: #000000;
+}
+nav .acc-btn span, .hotl-btn span{
+  color: #000000;
+}
+nav .hotl-btn .inf-btn{
+  color: #c72b2b;
+  font-weight: bold;
+}
+nav .acc-btn{
+  display: flex;
+  position: absolute;
+  top: 45px;
+  right: 80px;
+  display: none;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: #000000;
+}
+
+nav .hotl-btn{
+  font-size: 15px;
+  width: 260px;
+  display: flex;
+  position: absolute;
+  top: 45px;
+  right: 170px;
+  display: none;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: #000000;
+}
+
+nav .acc-btn.small, .hotl-btn.small{
+  top: 45px;
+}
+
+nav .acc-btn a:hover, .hotl-btn a:hover{
+  background-color: #ccc;
+}
+nav .acc-btn a:hover span, .hotl-btn a:hover span{
+  color: #005745;
+}
+
+nav .dropdown-account:hover .acc-btn {
+  display: block;
+}
+
+nav .dropdown-hotline:hover .hotl-btn{
+  display: block;
+}
+
+@media (max-width: 1100px) {
+  nav .acc-btn{
+    right: 50px;
+  }
+  nav .hotl-btn{
+    right: 160px;
+  }
+  nav .search-bard input[type="search"]{
+    width: 20vw;
+  }
+}
+
+@media (max-width: 890px){
+  nav .containerd .name_web h2{
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 830px) {
+  nav .contentd .my-content {
+    display: none;
+  }
+  nav .contentd .acc-btn , nav .contentd .hotl-btn{
+    display: none;
+  }
+  nav .dropdown-account:hover .acc-btn {
+    display: none;
+  }
+  nav .dropdown-hotline:hover .hotl-btn{
+    display: none;
+  }
+}

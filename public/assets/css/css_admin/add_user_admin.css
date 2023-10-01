@@ -1,0 +1,90 @@
+main .account-page .account-detail{
+	width: 60%;
+}
+main .account-page .account-detail input[type="submit"]{
+	background-color: var(--khaki);
+	color: var(--darkStaleGray);
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	padding: 5px 8px;
+	margin-top: 20px;
+	display: block;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+}
+main .account-page .account-detail input[type="submit"]:hover{
+	background-color: var(--darkStaleGray);
+	color: var(--khaki);
+}
+
+main .account-page .account-detail table{
+	border: 1px solid #eee;
+	width: 100%;
+}
+
+main .account-page .account-detail table th,
+main .account-page .account-detail table td{
+	padding: 8px;
+	text-align: center;
+	border: 1px solid #eee;
+}
+
+main .breadcrumb{
+	background-color: var(--khaki);
+	padding: 10px 0;
+	margin-bottom: 25px;
+	margin-top: 60px;
+}
+main .breadcrumb ul{
+	display: flex;
+	justify-content: flex-start;
+	list-style: none;
+}
+main .breadcrumb ul li{
+	padding: 0 10px;
+}
+main .breadcrumb ul li a{
+	color: var(--darkStaleGray);
+	text-decoration: none;
+}
+
+main .checkout-page{
+	/*max-height: 680px;*/
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+}
+main form.checkout-form .form-group{
+	margin: 10px 5px;
+	width: calc(100% - 10px);
+}
+main form.checkout-form label{
+	color: var(--darkStaleGray);
+	display: block;
+	margin-bottom: 6px;
+}
+main form.checkout-form .form-group input,
+main form.checkout-form .form-group select,
+main form.checkout-form .form-group textarea{
+	width: 100%;
+	padding: 8px 5px
+}
+main form.checkout-form input:focus,
+main form.checkout-form select:focus,
+main form.checkout-form textarea:focus{
+	outline: 1px solid var(--darkStaleGray);
+}
+main form.checkout-form .form-inline{
+	display: flex;
+	justify-content: space-between;
+}
+main form.checkout-form .form-inline .form-group{
+	width: 48%;
+}
+
+main hr{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}

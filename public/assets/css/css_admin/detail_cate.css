@@ -1,0 +1,100 @@
+.back-link {
+    margin-top: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: opacity 0.3s, color 0.3s;
+}
+
+.back-link i {
+    margin-right: 8px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.back-link:hover i {
+    color: #000;
+}
+
+.back-link:focus {
+    outline: none;
+}
+
+.product-details {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    display: flex;
+
+    height: auto;
+}
+
+.product-details .product-image{
+    width: 50%;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.product-details .product-image img{
+    width: 100%;
+    height: auto;
+    
+}
+
+.product-details .product-info .info-row{
+    margin-left: 30px;
+    margin-bottom: 20px;
+
+}
+
+.product-info{
+    margin-top: 25px;
+}
+
+.info-label {
+    font-weight: bold;
+}
+
+.pr_id{
+    max-width: 50%;
+    max-height: none;
+    margin-right: 20px;
+}
+
+.info-row{
+    max-width: 600px;
+}
+.pr_id{
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.order-detail table{
+	border: 1px solid black;
+	width: 100%;
+}
+
+.order-detail table th{
+	font-weight: bold;
+    text-align: -internal-center;
+	border: 1px solid black;
+}
+.order-detail table td{
+	padding: 8px;
+	text-align: center;
+	border: 1px solid black;
+}
+.button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    float: right;
+    margin-top: 20px;
+    transition: background-color 0.3s; /* Thời gian chuyển đổi màu nền */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Màu nền mới khi hover */
+}
+
